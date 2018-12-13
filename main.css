@@ -1,0 +1,29 @@
+.braviary-img, img {
+  border: 2px solid black;
+  height: 300px;
+  width: 250px; }
+
+nav a {
+  padding: 50px;
+  margin: 15px;
+  text-decoration: none; }
+
+#hp {
+  color: green; }
+
+.pokedex {
+  background-image: url("");
+  background-size: cover; }
+
+h2 {
+  color: green;
+  margin-bottom: 200px; }
+
+.charizard {
+  background-color: green; }
+
+.charizard-anchor a {
+  text-decoration: none;
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */

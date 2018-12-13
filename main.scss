@@ -1,0 +1,56 @@
+
+$head-color:green;
+%for-image {
+    border: 2px solid black ;
+    height: 300px;
+    width: 250px;
+}
+
+%anchor {
+
+    padding: 50px;
+    margin: 15px;
+    text-decoration: none;
+}
+#hp {
+
+    color: $head-color;
+}
+
+nav a  {
+    @extend %anchor;
+}
+
+  
+
+.braviary-img {
+
+    @extend %for-image;
+}
+
+
+.pokedex {
+    
+    background-image: url("");
+    background-size: cover;
+    
+}
+h2 {
+
+    color: $head-color;
+    margin-bottom: 200px;
+}
+
+
+
+
+img {
+    @extend %for-image;
+}
+.charizard {
+    background-color: $head-color;
+}
+.charizard-anchor a {
+    text-decoration: none;
+    color: black;
+}
