@@ -88,5 +88,13 @@ footer {
     left: 300px; }
   50% {
     left: 900px; } }
+@media (max-width: 575.98px) {
+  min-width: 570px; }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  min-width: 650px; }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  min-width: 870px; }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  min-width: 1170px; }
 
 /*# sourceMappingURL=main.css.map */
