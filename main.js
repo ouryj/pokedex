@@ -13,7 +13,7 @@ class Pokemon {
 
 }
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/braviary.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/braviary.json")
     .then(res => {
         let data = res.data;
 
@@ -57,7 +57,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/braviary.json")
     })
 
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/castform.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/castform.json")
     .then(res1 => {
 
         let data1 = res1.data;
@@ -96,7 +96,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/castform.json")
 
 
     })
-axios.get("http://fizal.me/pokeapi/api/v2/name/charizard.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/charizard.json")
     .then(res2 => {
         let data2 = res2.data;
         let myChar = []
