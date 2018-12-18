@@ -96,5 +96,15 @@ footer {
   min-width: 870px; }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   min-width: 1170px; }
+#section {
+  display: none; }
+
+#btntrainer {
+  background-color: black;
+  color: white;
+  cursor: pointer; }
+
+#trainername {
+  color: #a50b0b; }
 
 /*# sourceMappingURL=main.css.map */

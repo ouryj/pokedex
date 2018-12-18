@@ -162,3 +162,14 @@ footer {
 
 // Extra large devices (large desktops, 1200px and up)
 //@media (min-width: 1200px)
+#section {
+    display: none;
+}
+#btntrainer {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#trainername {
+    color:rgb(165, 11, 11);
+}
